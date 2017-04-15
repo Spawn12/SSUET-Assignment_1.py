@@ -1,3 +1,5 @@
+print("Name:Syed Taha Mashhadi\nRoll no:")
+#@Name:Syed Taha Mashhadi#
 ##3-4. Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite?
 #Make a list that includes at least three people you’d like to invite to dinner . Then use your list to print a message to each person, inviting them to dinner
 guest_list=["Ayesha",'Alex',"Kamran"] 
@@ -169,4 +171,16 @@ for food in food_in_menu:
 food_in_menu=("Spaheghitit","Sajji","Biryani","Fried Rice","Tikka")
 for food in food_in_menu:
     print("We have",food,"in menu")
+
 #**************************** Fibonacia Series ******************************#
+f_list = [x*1 for x in range (1,3)]
+f_even_no_list=[]
+for value in range(10000000):
+    if value == f_list[-1] + f_list[-2] and value<4000000:
+        f_list.append(value)
+        for y in f_list:
+            if y%2 == 0 :
+                f_even_no_list.append(y)
+print("@*********************** Fibonacia Series *************************************@\n",f_list)
+print("Sum of even valued term of Fibonacia Series is :",sum(f_even_no_list))
+
