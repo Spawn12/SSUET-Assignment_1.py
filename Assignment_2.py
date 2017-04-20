@@ -77,7 +77,7 @@ def printing_func(dict):
 
 
 #********************************** Problem Euler 3 ***********************************#
-def largest_prime_factor(list):
+def most_common_prime_factor(list):
     dict = {}
     for x in range(0,len(list)):
         count = 1
@@ -100,7 +100,7 @@ def list_of_prime_factor(no):
         if num==1:
             break
     print("The List Prime Factors Of ",no,"is :",list)
-    return largest_prime_factor(list)
+    return most_common_prime_factor(list)
 
 no=int(input("Enter no for finding largest prime factor :"))
 print ("The Largest Prime Factors Of ",no,"is",list_of_prime_factor(no))
