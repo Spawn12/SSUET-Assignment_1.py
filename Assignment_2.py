@@ -97,6 +97,8 @@ def list_of_prime_factor(no):
         while (num % x == 0):
             num = num / x
             list.append(x)
+        if num==1:
+            break
     print("The List Prime Factors Of ",no,"is :",list)
     return largest_prime_factor(list)
 
