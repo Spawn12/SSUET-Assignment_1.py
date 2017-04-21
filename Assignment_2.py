@@ -99,8 +99,8 @@ def list_of_prime_factor(no):
             list.append(x)
         if num==1:
             break
-    print("The List Prime Factors Of ",no,"is :",list)
+    print("The List Prime Factors Of ",no,"is :",list,"\nThe Largest Prime Factors is :",max(list))
     return most_common_prime_factor(list)
 
 no=int(input("Enter no for finding largest prime factor :"))
-print ("The Largest Prime Factors Of ",no,"is",list_of_prime_factor(no))
+print ("The most common Prime Factors Of ",no,"is",list_of_prime_factor(no))
